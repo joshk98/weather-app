@@ -1,7 +1,6 @@
 import React from "react";
 
-function LocationDetails(props) {
-  const { city, country } = props;
+function LocationDetails({ city, country }) {
   return <h1>{`${city}, ${country}`}</h1>;
 }
 
