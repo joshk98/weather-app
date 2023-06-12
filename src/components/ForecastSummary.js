@@ -15,6 +15,9 @@ function ForecastSummary({ date, description, icon, temperature }) {
         {temperature.max}&deg;C
       </div>
       <div className="forecast-summary__description">{description}</div>
+      <button className="forecast-summary__button" type="button">
+        More details
+      </button>
     </div>
   );
 }
