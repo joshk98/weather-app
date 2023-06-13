@@ -1,23 +1,22 @@
 import React from "react";
-import windSpeedDirection from "../data/windSpeedDirection.json";
+import "../styles/ForecastDetails.css";
 
 function ForecastDetails({ forecast }) {
   const formattedDate = new Date(forecast.date).toDateString();
   return (
     <div className="forecast-details">
-      <div className="forecast-details__date">{formattedDate}</div>
+      <h2 className="forecast-details__date">{formattedDate}</h2>
       <div className="forecast-details__max-temp">
-        Max Temperature: {forecast.temperature.max}&deg;C
+        <strong>Max Temperature:</strong> {forecast.temperature.max}&deg;C
       </div>
       <div className="forecast-details__min-temp">
-        Min Temperature: {forecast.temperature.min}&deg;C
+        <strong>Min Temperature:</strong> {forecast.temperature.min}&deg;C
       </div>
       <div className="forecast-details__humidity">
-        Humidity: {forecast.humidity}%
+        <strong>Humidity:</strong> {forecast.humidity}%
       </div>
       <div className="forecast-details__wind">
-        Wind Speed: {forecast.wind.speed}mph{" "}
-        {windSpeedDirection[forecast.wind.direction]}
+        <strong>Wind Speed:</strong> {forecast.wind.speed} mph
       </div>
     </div>
   );
