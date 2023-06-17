@@ -2,7 +2,10 @@ import React from "react";
 import iconData from "../data/iconData.json";
 
 function ForecastSummary({ date, description, icon, temperature, onSelect }) {
-  const weatherCode = `${icon.slice(0, 1)}00`;
+  let weatherCode = `${icon.toString().slice(0, 1)}00`;
+  if (icon > 800) {
+    weatherCode = "801";
+  }
   const formattedDate = new Date(date).toDateString();
 
   return (
