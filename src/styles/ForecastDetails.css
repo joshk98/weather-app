@@ -1,4 +1,5 @@
 .forecast-details {
+  margin: 1rem;
   display: flex;
   flex-direction: column;
   text-align: center;
