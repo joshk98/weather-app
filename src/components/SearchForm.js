@@ -6,7 +6,7 @@ function SearchForm({ searchText, setSearchText, onSubmit }) {
   const handleInputChange = (event) => setSearchText(event.target.value);
 
   return (
-    <form className="search-form">
+    <div className="search-form">
       <input
         type="text"
         placeholder="Enter a city in the UK"
@@ -16,8 +16,7 @@ function SearchForm({ searchText, setSearchText, onSubmit }) {
       <button type="submit" onClick={onSubmit}>
         Search
       </button>
-    </form>
+    </div>
   );
 }
-
 export default SearchForm;

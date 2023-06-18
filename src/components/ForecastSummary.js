@@ -1,6 +1,8 @@
 import React from "react";
 import iconData from "../data/iconData.json";
 
+import "../styles/ForecastSummary.css";
+
 function ForecastSummary({ date, description, icon, temperature, onSelect }) {
   let weatherCode = `${icon.toString().slice(0, 1)}00`;
   if (icon > 800) {
