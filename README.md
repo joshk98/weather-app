@@ -4,7 +4,7 @@
 
 <h2>Learning Concepts</h2>
 
-<ul>
+<ol>
   <li>React</li>
   <li>JSX</li>
   <li>Props</li>
@@ -15,18 +15,21 @@
   <li>React Testing Library</li>
   <li>Request/Response</li>
   <li>Error Handling</li>
-</ul>
+</ol>
 
-<p>To run the Weather App locally, follow these steps:</p>
-
-<pre>
-<code>
-Clone the repository: git clone https://github.com/joshk98/weather-app
-Navigate to the project directory: cd weather-app
-Install the dependencies: npm install
-Start the application: npm start
-</code>
-</pre>
+<h3>Getting Started</h3>
+Clone the repository:
+<pre><code>git clone https://github.com/joshk98/weather-app</code></pre>
+Navigate to the project directory:
+<pre><code>cd weather-app</code></pre>
+Install the dependencies:
+<pre><code>
+npm install
+</code></pre>
+Start the application:
+<pre><code>
+npm start
+</code></pre>
 
 <p>The app will be running at <a href="http://localhost:3000">http://localhost:3000</a>.</p>
 
@@ -41,21 +44,21 @@ Start the application: npm start
 
 <h3>Usage</h3>
 
-<ol>
+<ul>
   <li>On the home page, the Location Details section will show the current city and country.</li>
   <li>Enter a city name in the search bar and click the "Search" button.</li>
   <li>The application will fetch weather forecast data for the specified city.</li>
   <li>The Forecast Summaries section will display a summary of the forecasts for different dates.</li>
   <li>Click on a forecast summary to view the detailed forecast information in the Forecast Details section.</li>
-</ol>
+</ul>
 
 <h3>Contributing</h3>
 
 <p>Contributions are welcome! If you'd like to contribute to the Music Library API, please follow these guidelines:</p>
 
-<ol>
+<ul>
   <li>Fork the repository</li>
   <li>Create a new branch</li>
   <li>Make your changes</li>
   <li>Submit a pull request</li>
-</ol>
+</ul>
