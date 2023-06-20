@@ -23,13 +23,9 @@ Clone the repository:
 Navigate to the project directory:
 <pre><code>cd weather-app</code></pre>
 Install the dependencies:
-<pre><code>
-npm install
-</code></pre>
+<pre><code>npm install</code></pre>
 Start the application:
-<pre><code>
-npm start
-</code></pre>
+<pre><code>npm start</code></pre>
 
 <p>The app will be running at <a href="http://localhost:3000">http://localhost:3000</a>.</p>
 
