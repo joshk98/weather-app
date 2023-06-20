@@ -8,12 +8,13 @@ function SearchForm({ searchText, setSearchText, onSubmit }) {
   return (
     <div className="search-form">
       <input
+        className="search-form__text"
         type="text"
         placeholder="Enter a city in the UK"
         onChange={handleInputChange}
         value={searchText}
       />
-      <button type="submit" onClick={onSubmit}>
+      <button className="search-form__button" type="submit" onClick={onSubmit}>
         Search
       </button>
     </div>

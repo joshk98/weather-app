@@ -1,6 +1,6 @@
 .forecast-details {
   margin: 1rem auto;
-  padding: 20px;
+  padding: 50px;
   display: flex;
   width: fit-content;
   flex-direction: column;
@@ -15,4 +15,5 @@
 .forecast-details__date {
   margin-bottom: 0.5rem;
   font-weight: bold;
+  font-size: 50px;
 }

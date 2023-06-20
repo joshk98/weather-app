@@ -6,10 +6,7 @@ function LocationDetails({ city, country, errorMessage }) {
   return errorMessage ? (
     <h1 className="error-message">{errorMessage}</h1>
   ) : (
-    <>
-      <p>What&apos;s the weather like in...</p>
-      <h1 className="location-details">{`${city}, ${country}`}</h1>
-    </>
+    <h1 className="location-details">{`${city}, ${country}`}</h1>
   );
 }
 

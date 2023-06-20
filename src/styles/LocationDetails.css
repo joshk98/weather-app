@@ -1,11 +1,8 @@
-p {
-  font-size: xx-large;
-}
-
 .error-message {
   font-size: 75px;
 }
 
 .location-details {
+  margin: 3rem;
   font-size: 75px;
 }

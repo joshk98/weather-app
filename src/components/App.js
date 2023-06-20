@@ -34,13 +34,13 @@ function App() {
 
   useEffect(() => {
     getForecast(
-      searchText,
+      "",
       setSelectedDate,
       setForecasts,
       setLocation,
       setErrorMessage
     );
-  }, [searchText]);
+  }, []);
 
   return (
     <div className="weather-app">
