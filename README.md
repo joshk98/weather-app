@@ -50,7 +50,7 @@ Start the application:
 
 <h3>Contributing</h3>
 
-<p>Contributions are welcome! If you'd like to contribute to the Music Library API, please follow these guidelines:</p>
+<p>Contributions are welcome! If you'd like to contribute to the Weather App, please follow these guidelines:</p>
 
 <ul>
   <li>Fork the repository</li>
